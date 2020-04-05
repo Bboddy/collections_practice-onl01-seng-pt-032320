@@ -42,4 +42,5 @@ def add_s(array)
       returnArray << "#{word}s"
     end
   }
+  return return
 end
