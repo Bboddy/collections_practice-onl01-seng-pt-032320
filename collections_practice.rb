@@ -32,3 +32,7 @@ def sum_array(array)
   array.each {|num| total+=num}
   return total
 end
+
+def add_s(array)
+  array.each {|word| }
+end
