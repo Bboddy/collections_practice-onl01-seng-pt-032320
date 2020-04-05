@@ -37,9 +37,9 @@ def add_s(array)
   returnArray = []
   array.each {|word|
     if word == array[1]
-      returnArray >> word
+      returnArray << word
     else
-      returnArray >> "#{word}s"
+      returnArray << "#{word}s"
     end
   }
 end
