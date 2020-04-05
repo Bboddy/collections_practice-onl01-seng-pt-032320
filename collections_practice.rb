@@ -36,6 +36,10 @@ end
 def add_s(array)
   returnArray = []
   array.each {|word|
-    if word
+    if word == array[1]
+      returnArray >> word
+    else
+      returnArray >> "#{word}s"
+    end
   }
 end
