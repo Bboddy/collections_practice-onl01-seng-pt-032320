@@ -6,6 +6,6 @@ def sort_array_desc(array)
   return array.sort.reverse
 end
 
-def swap_elements(array)
+def sort_array_char_count(array)
   
 end
