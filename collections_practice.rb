@@ -34,6 +34,8 @@ def sum_array(array)
 end
 
 def add_s(array)
-  returnArray
-  array.each {|word| }
+  returnArray = []
+  array.each {|word| 
+    if
+      returnArray >> "#{word}s}
 end
